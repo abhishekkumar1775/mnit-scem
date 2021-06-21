@@ -10,6 +10,40 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ header img.animate{
+  animation: mover 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+.btn{
+  background-color: #fca311 !important;
+  border-color: #fca311 !important;
+}
+
+.quote{
+  background-color: #e5e5e5;
+}
+.news{
+  background-color: #14213d !important;
+}
+ .btn:hover{
+   background-color: white !important;
+   border-color: #000000 !important;
+   color: black !important;
+ }
+ 
+ nav h1{
+   font-size: 1.5em;
+ }
+ nav{
+   transition: 0.2s;
+ }
+ header{
+   background-color: #14213d !important;
+ }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
